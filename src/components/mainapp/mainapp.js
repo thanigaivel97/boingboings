@@ -236,7 +236,7 @@ export default class mainapp extends Component {
                     </div>
     
                     <div className="getdemobutton">
-                        <button className="insidebutton"><span className="buttontext">Contact Sales</span></button>
+                        <button className="insidebutton"><a className="removeline" href="/setup-demo"><span className="buttontext">Contact Sales</span></a></button>
     
                     </div>
                     {this.state.acc.productsoftwarescore ?<div className="softwarescore">

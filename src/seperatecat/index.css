@@ -8,6 +8,10 @@
     border-top: solid 2px #102a43;
 }
 
+.aproperties {
+    text-decoration: none;
+}
+
 .prod-section {
     /* width: 90%;
     margin: auto;

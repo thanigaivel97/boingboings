@@ -4,6 +4,10 @@
     /* border: 3px solid blue; */
 }
 
+.removeline {
+    text-decoration: none;
+}
+
 .insideoverall {
     padding-left: 60px;
     padding-right: 100px;

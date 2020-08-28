@@ -8,7 +8,7 @@ export default class reachout extends Component {
                 <div className="flo">
                     <div className="Phone-Number">Setup Demo</div>
                     <div className="bt-classs">
-                        <button className="cotact-saless"><span className=" contact-sales-texts"> Contact Sales</span></button>     
+                        <button className="cotact-saless"><a className="removeline" href="/setup-demo"><span className=" contact-sales-texts"> Contact Sales</span></a></button>     
                         
                     </div>
                 </div>

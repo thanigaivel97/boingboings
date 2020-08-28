@@ -52,20 +52,26 @@ export default class index extends Component {
                         prod.map((ite ,index) => {
                             //  console.log(ite.categoryName.toUpperCase())
                             // let match = this.props.match.params.id;
+                            let prodnamesforurl = ite.productName;
+                            let replaced = prodnamesforurl.replace(" " , "-");
+                            let replacedr = replaced.replace(" ","-");
+                            let replacedrf = replacedr.replace(" ", "-")
+
                             return ite.categoryName.toUpperCase() === this.state.id  ? <div className="prod-section-outer">  <div  className="prod-section">
                             <div className="prod-image">
-                                <img  className="prod-image-inner-i" src={ite.productImageURL} alt="d" />
+                            <a className="aproperties" href={'/product/' + replacedrf}> <img  className="prod-image-inner-i" src={ite.productImageURL} alt="d" /></a>
+                               
                                
                             </div>
                             <div className="prod-outer">
                                 <div className="prod-section-inner">
                                     <div className="top-section">
-                                        <div className="prod-title"><span className="prod-title-inner"> {ite.productName} </span></div>
+                                        <div className="prod-title"><a className="aproperties" href={'/product/' + replacedrf}><span className="prod-title-inner"> {ite.productName} </span></a></div>
                                         <div className="prod-subtitle"><span className="prod-subtitle-text"> {ite.productSubtitle} </span></div>
                                     </div>
                                     <div className="top-middle">
                                         {ite.productRating === "" ? '' : <div className="prod-score"><span className="prod-score-inner">Score is <span className="prod-score-rating"> {ite.productRating} </span></span> </div> }
-                                        <div className="prod-content"><p className="prod-content-inner"> {ite.productDescription} <span className="prod-readmore">read more</span> </p></div>
+                                        <div className="prod-content"><p className="prod-content-inner"> {ite.productDescription} <a className="aproperties prod-readmore" href={'/product/' + replacedrf}><span className="prod-readmore">read more</span></a> </p></div>
                                     </div>
                                  
     
