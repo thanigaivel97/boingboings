@@ -1,0 +1,102 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.bt-classs {
+    /* padding-left: 10px; */
+    padding-top: 20px;
+}
+
+.cotact-saless {
+    width: 242px;
+    border: none;
+    height: 57px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 0 #00000080;
+    background-color: #d8d8d8;
+    /* outline: none; */
+    margin: 0;
+}
+
+.Phone-Number {
+    font-family: ProximaNova;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #334e68;
+}
+
+.contact-sales-texts {
+    height: 36px;
+    font-family: ProximaNova;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #243b53;
+}
+
+.Bellevue-Washington {
+    font-family: ProximaNova;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #334e68;
+    margin-top: 34px;
+}
+
+@media (max-width: 500px) {
+    .contact-sales-texts {
+        height: 36px;
+        font-family: ProximaNova;
+        font-size: 15px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #243b53;
+    }
+    .cotact-saless {
+        width: 150px;
+        border: none;
+        height: 30px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 4px 0 #00000080;
+        background-color: #d8d8d8;
+        padding: 0;
+        /* outline: none; */
+        margin: 0;
+    }
+    .bt-classs {
+        /* padding-left: 10px; */
+        padding-top: 0;
+    }
+    .footer {
+        display: block;
+        justify-content: none;
+    }
+    .Phone-Number {
+        font-size: 16px;
+    }
+    .Bellevue-Washington {
+        font-size: 14px;
+        margin-top: 0;
+    }
+    .flo {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+}

@@ -1,0 +1,250 @@
+.catouter {
+    width: 1024px;
+    height: auto;
+    /* background-color: #d8d8d8; */
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border: 3px solid blue; */
+}
+
+.bg-color {
+    background-color: #fff;
+}
+
+.colorold {
+    height: 55px;
+    border-radius: 15px;
+    background-color: #b3ecff;
+    text-decoration: none;
+    border: 0px;
+}
+
+.colornew {
+    height: 55px;
+    border-radius: 15px;
+    background-color: #e8e6e1;
+    text-decoration: none;
+    border: 0px;
+}
+
+.prodsearchsd {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.p-20 {
+    margin-bottom: 20px;
+}
+
+.will-make-your-produ {
+    width: 406px;
+    height: 29px;
+    font-family: ProximaNova;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    opacity: 0.6;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #334e68;
+}
+
+.inner-h {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    /* margin: 50px auto; */
+}
+
+.img-boing {
+    /* margin-top: 50px; */
+}
+
+.boing-txt {
+    /* padding-top: 50px; */
+    height: 64px;
+    font-family: ProximaNova;
+    font-size: 64px;
+    position: relative;
+    font-weight: bolder;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #334e68;
+}
+
+.BOING-BOING-Copy {
+    width: 479px;
+    height: 52px;
+}
+
+.top-boing {
+    width: 1024px;
+    height: 224px;
+    margin: auto;
+    /* opacity: 0.5; */
+    background-color: #f0f4f8;
+}
+
+.Browse-Software-Cate {
+    height: 58px;
+    font-family: ProximaNova;
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #102a43;
+}
+
+.Find-what-youve-bee {
+    width: 749px;
+    height: 52px;
+    font-family: ProximaNova;
+    font-size: 23px;
+    font-weight: normal;
+    /* opacity: 0.8; */
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #334e68;
+}
+
+.catinner {
+    width: 85%;
+    margin: auto;
+    /* border: 3px solid blue; */
+    margin-top: 50px;
+    height: auto;
+}
+
+.catbottom {
+    width: 850px;
+    margin: auto;
+    margin-top: 75px;
+}
+
+.forlab {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fortext {
+    font-family: ProximaNova;
+    font-size: 24px;
+    font-weight: bolder;
+    font-stretch: normal;
+    text-decoration: none;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #102a43;
+}
+
+.colorgreen {
+    height: 55px;
+    border-radius: 15px;
+    background-color: #c6f7e2;
+    text-decoration: none;
+    border: 0px;
+}
+
+.colorblue {
+    height: 55px;
+    border-radius: 15px;
+    background-color: #bed0f7;
+    text-decoration: none;
+    border: 0px;
+}
+
+.colorsandal {
+    height: 55px;
+    border-radius: 15px;
+    background-color: #e8e6e1;
+    text-decoration: none;
+    border: 0px;
+}
+
+.colorpink {
+    height: 55px;
+    border-radius: 15px;
+    background-color: #ffb8d2;
+    text-decoration: none;
+    border: 0px;
+}
+
+.coloryellow {
+    height: 55px;
+    border-radius: 15px;
+    background-color: #fff3c4;
+    text-decoration: none;
+    border: 0px;
+}
+
+.colorlightyellow {
+    height: 55px;
+    border-radius: 15px;
+    background-color: #e2f7c2;
+    text-decoration: none;
+    border: 0px;
+}
+
+.liitems {
+    margin-top: 22px;
+}
+
+.link {
+    height: 22px;
+    font-family: ProximaNova;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #102a43;
+    text-decoration: none;
+}
+
+.libut {
+    margin-top: 30px;
+}
+
+@media (max-width: 500px) {
+    .catouter {
+        width: 396px;
+        height: auto;
+        background-color: #d8d8d8;
+        margin: auto;
+        /* border: 3px solid blue; */
+    }
+    .catinner {
+        width: 80%;
+        margin: auto;
+        /* border: 3px solid blue; */
+        margin-top: 50px;
+        height: auto;
+    }
+    .catbottom {
+        width: 80%;
+        margin: auto;
+        margin-top: 75px;
+    }
+    .forlab {
+        margin-top: 25px;
+        display: block;
+    }
+    button {
+        display: block;
+        margin-top: 40px;
+    }
+}

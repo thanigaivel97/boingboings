@@ -1,0 +1,240 @@
+.container {
+    width: 1024px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    /* border: 3px solid blue; */
+    border-top: solid 2px #102a43;
+}
+
+.prod-section {
+    /* width: 90%;
+    margin: auto;
+    height: 214px;
+    background-color: #f0f4f8; */
+    display: flex;
+}
+
+.prod-section-outer {
+    width: 90%;
+    margin: auto;
+    background-color: #f0f4f8;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.contact-sales-text {
+    height: 36px;
+    font-family: ProximaNova;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    text-decoration: none;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #243b53;
+}
+
+.bt-class {
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.cotact-sales {
+    width: 242px;
+    border: none;
+    height: 57px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 0 #00000080;
+    background-color: #d8d8d8;
+    /* outline: none; */
+    margin: 0;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.top-middle {
+    display: flex;
+}
+
+.top-section {
+    /* display: flex; */
+    margin-bottom: 30px;
+    height: 50px;
+}
+
+.des-width {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.prod-subtitle {
+    /* padding-top: 20px;
+    padding-left: 10px; */
+    padding-bottom: 10px;
+}
+
+.prod-title {
+    margin-bottom: 10px;
+}
+
+.prod-score {
+    width: 70%;
+    padding-top: 25px;
+}
+
+.prod-section-inner {
+    width: 90%;
+    margin: auto;
+}
+
+.prod-image-inner-i {
+    width: 100%;
+    /* height: 200px; */
+    /* margin-top: 20px; */
+    padding: 25% 0;
+    margin-left: 10px;
+    /* margin-top: ; */
+    margin-bottom: auto;
+}
+
+.prod-image {
+    width: 40%;
+    height: 214px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* border: 3px solid blue; */
+}
+
+.prod-outer {
+    margin-top: 20px;
+}
+
+.prod-title-inner {
+    font-family: ProximaNova;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 50px;
+    color: #102a43;
+}
+
+.prod-subtitle-text {
+    font-family: ProximaNova;
+    font-size: 24px;
+    font-weight: normal;
+    color: #334e68;
+}
+
+.prod-score-inner {
+    font-family: ProximaNova;
+    font-size: 24px;
+    font-weight: normal;
+    color: #334e68;
+}
+
+.prod-score-rating {
+    font-weight: bold;
+}
+
+.prod-content-inner {
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: justify;
+    color: #334e68;
+}
+
+.prod-readmore {
+    font-weight: bold;
+}
+
+.over-title {
+    font-family: ProximaNova;
+    font-size: 48px;
+    font-weight: bold;
+    color: #102a43;
+}
+
+.description {
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: justify;
+    color: #334e68;
+}
+
+@media (max-width:500px) {
+    .prod-subtitle-text {
+        font-family: ProximaNova;
+        font-size: 20px;
+        font-weight: normal;
+        margin-top: 20px;
+        color: #334e68;
+    }
+    .prod-content {
+        padding-bottom: 20px;
+    }
+    .prod-subtitle {
+        /* padding-top: 5px;
+        padding-left: 0px; */
+        padding-bottom: 0px;
+    }
+    .prod-image {
+        width: 100%;
+        height: 150px;
+        border: 3px solid blue;
+    }
+    .top-section {
+        display: block;
+        margin-bottom: 0px;
+        height: auto;
+    }
+    .top-middle {
+        display: block;
+    }
+    .prod-image-inner-i {
+        width: 100%;
+        height: 100%;
+        padding: 0 0;
+        margin-left: 0px;
+        /* margin-top: 20px; */
+        /* margin-top: ; */
+        margin-bottom: auto;
+    }
+    .prod-section {
+        width: 90%;
+        margin: auto;
+        height: auto;
+        background-color: #f0f4f8;
+        display: block;
+        margin-bottom: 30px;
+    }
+    .container {
+        width: 340px;
+        height: 3282px;
+        margin: auto;
+        margin-top: 0px;
+        border: 1px solid blue;
+    }
+    .over-title {
+        font-family: ProximaNova;
+        font-size: 24px;
+        font-weight: bold;
+        color: #102a43;
+    }
+    .description {
+        font-family: ProximaNova;
+        font-size: 16px;
+        font-weight: normal;
+        text-align: justify;
+        color: #334e68;
+    }
+}

@@ -1,0 +1,19 @@
+.header {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    background: rgb(240, 244, 248);
+    background: linear-gradient(90deg, rgba(240, 244, 248, 1) 0%, rgba(16, 42, 67, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    color: #BCCCDC;
+    font-weight: 700;
+}
+
+.header-second-line {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.image {
+    height: 20px;
+    width: 80px;
+}

@@ -1,0 +1,33 @@
+.Whirlpool {
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #334e68;
+}
+
+.cusfloat {
+    display: flex;
+}
+
+.cusfloated {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.cusmar {
+    margin-right: 100px;
+}
+
+@media (max-width: 500px) {
+    .cusfloat {
+        display: block;
+        margin-top: 20px;
+    }
+    .cusmar {
+        margin-right: 200px;
+    }
+}

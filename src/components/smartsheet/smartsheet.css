@@ -1,0 +1,27 @@
+.tittlehello {
+    width: 432px;
+    height: 29px;
+    font-family: ProximaNova;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #334e68;
+    margin-top: 30px;
+}
+
+@media (max-width: 500px) {
+    .tittlehello {
+        font-family: ProximaNova;
+        font-size: 16px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #334e68;
+        margin-top: 30px;
+    }
+}

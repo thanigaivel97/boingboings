@@ -1,0 +1,72 @@
+.AirTable-is-a-Cloud {
+    font-family: ProximaNova;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #243b53;
+}
+
+.AirTable-is-a-Cloud .text-style-1s {
+    font-weight: bold;
+}
+
+.letter {
+    width: 220px;
+    height: 286px;
+    border-radius: 15px;
+    border: solid 2px #334e68;
+    background-color: #ffffff;
+}
+
+.AirTable {
+    font-family: ProximaNova;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #486581;
+}
+
+.Compare-SmartSheet-w {
+    font-family: ProximaNova;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #334e68;
+    margin-top: 35px;
+}
+
+.alternativeswrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.insideletter {
+    padding: 15px;
+}
+
+.leetericon {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 500px) {
+    .alternativeswrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 35px;
+    }
+    .letter {
+        margin-bottom: 20px;
+    }
+}

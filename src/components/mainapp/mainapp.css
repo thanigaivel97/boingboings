@@ -1,0 +1,588 @@
+.overall {
+    width: 1100px;
+    margin: auto;
+    /* border: 3px solid blue; */
+}
+
+.insideoverall {
+    padding-left: 60px;
+    padding-right: 100px;
+    padding-top: 30px;
+    border-top: solid 2px #102a43;
+}
+
+.topmainpart {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.iconimage {
+    width: 174px;
+    height: 174px;
+}
+
+.See-More {
+    font-family: ProximaNova;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: normal;
+    color: #334e68;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Top-Customers {
+    font-family: ProximaNova;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #243b53;
+    margin-top: 10px;
+}
+
+.Smartsheet {
+    width: 100%;
+    margin: 0;
+    /* border: 2px solid green; */
+}
+
+.insidetop {
+    width: 262px;
+    height: 66px;
+    font-family: Avenir;
+    font-size: 48px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1f2933;
+    margin: 0;
+    /* margin-top: 40px; */
+}
+
+.An-award-winning-bus {
+    width: 427px;
+    height: 41px;
+    font-family: Avenir;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1f2933;
+    margin: 0;
+}
+
+.subtittle {
+    display: flex;
+}
+
+.rating {
+    width: 22%;
+}
+
+.insidebutton {
+    width: 242px;
+    height: 57px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 0 #00000080;
+    background-color: #d8d8d8;
+}
+
+.buttontext {
+    width: 171px;
+    height: 41px;
+    font-family: Avenir;
+    font-size: 30px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1f2933;
+}
+
+.The-software-score-i {
+    width: 360px;
+    height: 41px;
+    font-family: Avenir;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1f2933;
+}
+
+.forpercentage {
+    font-weight: 900;
+}
+
+.SmartSheet-is-an-int {
+    font-family: Avenir;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #1f2933;
+}
+
+.Social-Profile-Follo {
+    height: 49px;
+    font-family: Avenir;
+    font-size: 36px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1f2933;
+}
+
+.insidesocial {
+    display: flex;
+}
+
+.Social-media_Instagram-512 {
+    width: 60px;
+    height: 60px;
+}
+
+.foll {
+    width: 86px;
+    height: 33px;
+    font-family: Avenir;
+    font-size: 24px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1f2933;
+    margin-left: 5px;
+}
+
+.linkedin {
+    margin-right: 30px;
+}
+
+.smartsheettittle {
+    height: 43px;
+    font-family: ProximaNova;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #243b53;
+    margin-top: 95px;
+}
+
+.SmartSheet-Technical {
+    height: 43px;
+    font-family: ProximaNova;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #243b53;
+    margin-top: 60px;
+}
+
+.How-to-reachout-deta {
+    height: 43px;
+    font-family: ProximaNova;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #243b53;
+    margin-top: 30px;
+}
+
+.awardstitle {
+    font-family: ProximaNova;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #243b53;
+    height: 73px;
+    padding-top: 29px;
+}
+
+.firstbox {
+    margin-right: 50px;
+    padding-left: 50px;
+}
+
+.footertitle {
+    margin-top: 18px;
+    padding-left: 5px;
+    font-family: ProximaNova;
+    font-size: 17px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #334e68;
+}
+
+.awardsbox {
+    width: 100%;
+    height: 368px;
+    margin-top: 35px;
+    background-image: linear-gradient(to bottom, #ffffff80 56%, #00000080), linear-gradient(to bottom, #f0f4f8, #f0f4f8);
+}
+
+.Group {
+    width: 112px;
+    height: 148px;
+    object-fit: contain;
+}
+
+.holdsawards {
+    display: flex;
+}
+
+.hellos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trophy {
+    margin-right: 27px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.Trophy-2 {
+    width: 60px;
+    height: 62px;
+    object-fit: contain;
+}
+
+.awardsboxinside {
+    display: flex;
+}
+
+.hellosout {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ---------- smart pricing ------------*/
+
+.SmartSheet-Pricing {
+    margin-top: 30px;
+    height: 43px;
+    font-family: ProximaNova;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #243b53;
+}
+
+.Smartsheet-supports {
+    height: 34px;
+    font-family: ProximaNova;
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #334e68;
+}
+
+.text-style-1 {
+    font-family: ProximaNova;
+    color: #334e68;
+    font-size: 28px;
+    font-weight: normal;
+    margin-top: 35px;
+}
+
+
+/* smartsheet alternatives */
+
+.SmartSheet-Alternati {
+    width: 397px;
+    height: 43px;
+    font-family: ProximaNova;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #243b53;
+    margin-top: 60px;
+}
+
+@media (max-width: 500px) {
+    .trophy {
+        margin-right: 10px;
+        margin-top: 18px;
+        margin-left: 14px;
+    }
+    .Trophy-2 {
+        width: 34px;
+        height: 35px;
+        object-fit: contain;
+    }
+    .SmartSheet-Alternati {
+        width: 265px;
+        height: 29px;
+        font-family: ProximaNova;
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #243b53;
+    }
+    .SmartSheet-Pricing {
+        margin-top: 50px;
+        height: 43px;
+        font-family: ProximaNova;
+        font-size: 30px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #243b53;
+    }
+    .Smartsheet-supports {
+        height: 34px;
+        font-family: ProximaNova;
+        font-size: 20px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #334e68;
+    }
+    .text-style-1 {
+        font-family: ProximaNova;
+        color: #334e68;
+        font-size: 20px;
+        font-weight: normal;
+        margin-top: 17px;
+    }
+    .How-to-reachout-deta {
+        height: 29px;
+        font-family: ProximaNova;
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #243b53;
+    }
+    .SmartSheet-Technical {
+        height: 26px;
+        font-family: ProximaNova;
+        font-size: 22px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #243b53;
+    }
+    .hellosout {
+        display: block;
+    }
+    .awardstitle {
+        font-family: ProximaNova;
+        font-size: 20px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #243b53;
+        padding-top: 29px;
+    }
+    .firstbox {
+        margin-right: 50px;
+        padding-left: 30px;
+    }
+    .hellos {
+        display: flex;
+        margin-bottom: 25px;
+        margin-top: 0;
+    }
+    .footertitle {
+        margin-top: 9px;
+        font-family: ProximaNova;
+        font-size: 8px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #334e68;
+    }
+    .awardsbox {
+        width: 90%;
+        margin-top: 35px;
+        background-image: linear-gradient(to bottom, #ffffff80 56%, #00000080), linear-gradient(to bottom, #f0f4f8, #f0f4f8);
+    }
+    .Group {
+        width: 60px;
+        height: 80px;
+        object-fit: contain;
+    }
+    .smartsheettittle {
+        font-family: ProximaNova;
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #243b53;
+        margin-top: 40px;
+    }
+    .insidesocial {
+        display: block;
+    }
+    .Smartsheet {
+        width: 60%;
+        margin: 0;
+        /* border: 2px solid green; */
+    }
+    .SmartSheet-is-an-int {
+        width: 85%;
+        font-family: Avenir;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: justify;
+        color: #1f2933;
+    }
+    .overall {
+        width: 460px;
+        margin: auto;
+        border: 3px solid blue;
+    }
+    .insideoverall {
+        padding-top: 10px;
+    }
+    .insidetop {
+        width: 164px;
+        height: 41px;
+        font-family: Avenir;
+        font-size: 30px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #1f2933;
+    }
+    .iconimage {
+        width: 88px;
+        height: 88px;
+    }
+    .An-award-winning-bus {
+        width: 165px;
+        height: 54px;
+        font-family: Avenir;
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #1f2933;
+    }
+    .subtittle {
+        display: block;
+    }
+    .insidebutton {
+        width: 191px;
+        height: 62px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 4px 0 #00000080;
+        background-color: #d8d8d8;
+    }
+    .buttontext {
+        width: 128px;
+        height: 27px;
+        font-family: Avenir;
+        font-size: 20px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #1f2933;
+    }
+    .The-software-score-i {
+        width: 240px;
+        height: 27px;
+        font-family: Avenir;
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #1f2933;
+    }
+    .forpercentage {
+        font-weight: 900;
+    }
+    .Social-Profile-Follo {
+        width: 267px;
+        height: 27px;
+        font-family: Avenir;
+        font-size: 20px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #1f2933;
+    }
+    .insideoverall {
+        /* padding-left: 22px; */
+        /* border: 3px solid green; */
+        padding-right: 0px;
+    }
+}

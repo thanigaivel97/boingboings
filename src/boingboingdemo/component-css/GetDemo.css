@@ -1,0 +1,54 @@
+.getdemo {
+    display: flex;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.select-company {
+    margin: 10px;
+    width: 70%;
+    background: #D9E2EC;
+    padding: 2rem;
+    box-shadow: 5px 5px 10px 0 #F0F4F8;
+}
+
+.personal-details {
+    margin: 10px;
+    width: 70%;
+    padding: 2rem;
+    background: #F0F4F8;
+}
+
+.enter-value-label {
+    font-size: 1.5rem;
+}
+
+.text-field {
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.main-button {
+    margin: 0 auto;
+    margin-top: 0rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.error-message {
+    color: red;
+}
+
+@media all and (max-width: 900px) {
+    .getdemo {
+        flex-direction: column;
+        width: 80%;
+    }
+    .select-company {
+        width: 100%;
+    }
+    .personal-details {
+        margin-top: 2rem;
+        width: 100%;
+    }
+}

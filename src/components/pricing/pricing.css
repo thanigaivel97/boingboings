@@ -1,0 +1,141 @@
+.individual {
+    width: 182px;
+    height: 390px;
+    border-radius: 15px;
+    border: solid 2px #334e68;
+    background-color: #ffffff;
+}
+
+.Individual {
+    width: 133px;
+    height: 36px;
+    font-family: ProximaNova;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #486581;
+}
+
+.-per-month {
+    height: 18px;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    margin-top: 35px;
+    color: #243b53;
+}
+
+.Features {
+    height: 24px;
+    font-family: ProximaNova;
+    font-size: 20px;
+    margin-top: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #243b53;
+}
+
+.Free-Users {
+    height: 14px;
+    font-family: ProximaNova;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #334e68;
+}
+
+.insidepricing {
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.liforprice {
+    list-style-type: circle;
+}
+
+.forusers {
+    padding-left: 10%;
+}
+
+@media (max-width: 500px) {
+    .individual {
+        width: 182px;
+        margin-bottom: 35px;
+        height: 360px;
+        border-radius: 15px;
+        border: solid 2px #334e68;
+        background-color: #ffffff;
+    }
+    .Individual {
+        width: 133px;
+        height: 36px;
+        font-family: ProximaNova;
+        font-size: 30px;
+        font-weight: bold;
+        font-stretch: normal;
+        text-align: center;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #486581;
+    }
+    .-per-month {
+        height: 18px;
+        font-family: ProximaNova;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        margin-top: 35px;
+        color: #243b53;
+    }
+    .Features {
+        height: 24px;
+        font-family: ProximaNova;
+        font-size: 20px;
+        margin-top: 16px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #243b53;
+    }
+    .Free-Users {
+        height: 14px;
+        font-family: ProximaNova;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #334e68;
+    }
+    .insidepricing {
+        padding-left: 10%;
+        padding-top: 10%;
+    }
+    .liforprice {
+        list-style-type: circle;
+    }
+    .forusers {
+        padding-left: 10%;
+    }
+}

@@ -1,0 +1,63 @@
+.Support {
+    font-family: ProximaNova;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #334e68;
+}
+
+.tech {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+.Freelancers-Large-En {
+    margin-top: 20px;
+    font-family: ProximaNova;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #334e68;
+    /* margin: 0; */
+}
+
+@media (max-width:500px) {
+    .tech {
+        display: block;
+    }
+    .Support {
+        height: 19px;
+        font-family: ProximaNova;
+        font-size: 16px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #334e68;
+    }
+    .insidefloat {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
