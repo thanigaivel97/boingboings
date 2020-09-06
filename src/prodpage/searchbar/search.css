@@ -11,6 +11,14 @@
     margin-top: 20px;
 }
 
+.sea {
+    text-decoration: none;
+}
+
+.sea:hover {
+    opacity: 0.6;
+}
+
 .p-20 {
     margin-bottom: 20px;
 }

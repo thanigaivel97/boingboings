@@ -5,8 +5,6 @@ import Searchbox from './prodpage/searchbar/search'
 import Singlecat from './seperatecat/index'
 import Catpage from './catpage/allcat/index'
 import './app.css'
-import Header from './boingboingdemo/components/Header';
-import Footer from './boingboingdemo/components/Footer';
 import MainBody from './boingboingdemo/components/MainBody';
 
 function App() {
@@ -14,15 +12,16 @@ function App() {
     <div className="app">
       <BrowserRouter>
       <Route 
-            path="/setup-demo"  
-            render={() => 
-                <div>
-                    <Header />
-                    <MainBody />
-                    <Footer />
-                </div> 
-            } 
+            path="/setup-demo/:item"  
+           component={MainBody}
         />
+
+      <Route 
+            path="/setup-demo"  exact
+           component={MainBody}
+        />
+
+      
 
         <Route path="/prod" exact component={Searchbox} /> 
       

@@ -18,6 +18,16 @@
     margin-bottom: 30px;
 }
 
+.inside-cus-icon {
+    width: 100px;
+    height: auto;
+}
+
+.cus-icon {
+    width: 100px;
+    height: 100px;
+}
+
 .cusmar {
     margin-right: 100px;
 }

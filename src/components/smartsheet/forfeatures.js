@@ -1,5 +1,7 @@
 import './forfeatures.css'
 import React, { Component } from 'react'
+import Grid from '@material-ui/core/Grid';
+
 
 export default class forfeatures extends Component {
 
@@ -8,11 +10,16 @@ export default class forfeatures extends Component {
     }
     render() {
         return (           
-            <div className="forflex">                
-                {this.props.fesup.map((ite,index) => {
+            <div className="forflex">   
+        
+                  {this.props.fesup.map((ite,index) => {
                     return index >= this.props.value && index < (this.props.value + 3) ? 
-                       <div className="" key={index}><span className="Budget-Management-Copy-2">{ite.feature}</span></div> : ''
-                })}       
+                    <Grid item xs={4}>
+                       <div className="" key={index}><span className="Budget-Management-Copy-2">{ite.feature}</span></div>  </Grid>             
+               : ''
+                })}     
+                       
+              
             </div>
         )
     }

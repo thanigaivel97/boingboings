@@ -2,52 +2,29 @@ import React, { Component } from 'react'
 import './topcustom.css'
 
 export default class topcustom extends Component {
+    componentDidMount(){
+        console.log(this.props.customer)
+    }
     render() {
         return (
             <div className="cusfloat">
                 <div className="cusfloated">
-                    <div className="cusmar" >
-                        <img src="" alt="" />
-                        <div className="Whirlpool">
-                            <span className="Whirlpool">Whirlpool</span>
-                        </div>
-                    </div>
-                    <div className="cusmar">
-                        <img src="" alt="" />
-                        <div className="Whirlpool">
-                            <span className="Whirlpool">Whirlpool</span>
-                        </div>
-                    </div>
-                </div>
-                <div className="cusfloated">
-                    <div  className="cusmar">
-                         <img src="" alt="" />
-                        <div className="Whirlpool">
-                            <span className="Whirlpool">Whirlpool</span>
-                        </div>
-                    </div>
-                    <div  className="cusmar">
-                        <img src="" alt="" />
-                        <div className="Whirlpool">
-                            <span className="Whirlpool">Whirlpool</span>
-                        </div>
-                    </div>
-                </div>
-                <div className="cusfloated">
-                    <div  className="cusmar">
-                         <img src="" alt="" />
-                        <div className="Whirlpool">
-                            <span className="Whirlpool">Whirlpool</span>
-                        </div>
-                    </div>
-                    <div className="cusmar">
-                        <img src="" alt="" />
-                            <div className="Whirlpool">
-                            <span className="Whirlpool">Whirlpool</span>
-                        </div>
+                    {
+                        this.props.customer.map((ite, index) => {
+                            return  <div key={index} className="cusmar" >
+                                        <div className="cus-icon">
+                                        <img className="inside-cus-icon"  src={ite.customerlink} alt="" />
 
-                    </div>
+                                        </div>
+                                        <div className="Whirlpool">
+                                            <span className="Whirlpool"> {ite.customername} </span>
+                                        </div>
+                                    </div>
+                        })
+                    }
+                   
                 </div>
+              
                 
                 
             </div>

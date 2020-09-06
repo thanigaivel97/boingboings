@@ -9,29 +9,15 @@ export default class search extends Component {
     constructor(props){
         super(props);
         this.state = {
-            libraries : [
-
-                { name: 'Backbone.js'},
-                { name: 'AngularJS'},
-                { name: 'jQuery'},
-                { name: 'Prototype'},
-                { name: 'React'},
-                { name: 'Ember'},
-                { name: 'Knockout.js'},
-                { name: 'Dojo'},
-                { name: 'Mootools'},
-                { name: 'Underscore'},
-                { name: 'Lodash'},
-                { name: 'Moment'},
-                { name: 'Express'},
-                { name: 'Koa'},
-            
-            ],
+          
             searchvalue : "",
-            showcontrol : false
+            showcontrol : false,
+            popupVisible : false
             
         }
         this.changeHandler = this.changeHandler.bind(this)
+        this.handleClick = this.handleClick.bind(this);
+        this.handleOutsideClick = this.handleOutsideClick.bind(this);
     }
 
     componentDidMount(){
@@ -42,11 +28,38 @@ export default class search extends Component {
 
     }
 
+
+        
+    handleClick() {
+        if (!this.state.popupVisible) {
+        // attach/remove event handler
+            document.addEventListener('click', this.handleOutsideClick, false);
+        } else {
+            document.removeEventListener('click', this.handleOutsideClick, false);
+        }
+
+        this.setState(prevState => ({
+            popupVisible: !prevState.popupVisible,
+        }));
+    }
+    
+    handleOutsideClick(e) {
+        // ignore clicks on the component itself
+        if (this.node.contains(e.target)) {
+            return;
+        }
+        
+        this.handleClick();
+    }
+
+
     changeHandler(event){
         this.setState({
             searchvalue : event.target.value,
             showcontrol : true
         })
+
+
     }
 
     render() {
@@ -77,7 +90,7 @@ export default class search extends Component {
              <div className="inner-h">
                <div className="img-boing">
                  {/* <img  className="BOING-BOING-Copy" src={Logo} alt="img" /> */}
-                 <a  href="/" className="boing-txt">  BOING BOING </a><span className="will-make-your-produ">will make your product purchase a breeze</span>
+                 <a  href="/" className="boing-txt"> ZOIN ZOIN  </a><span className="will-make-your-produ">will make your product purchase a breeze</span>
                </div>
                <div>
 
@@ -86,15 +99,20 @@ export default class search extends Component {
                    
                 {/* <i className="search-icon fas fa-search"></i> */}
                 {/* <a href="#"><img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"/></a> */}
-                <input  onChange={this.changeHandler} placeholder="Enter product name, software category, service name.. " className={search.length > 0 ? "Rectangleforinputon " : "Rectangleforinput" } type="text" />
-                    <div className={this.state.showcontrol && search.length > 0 ? "border " : " border enclosed" }>
+                <input  onChange={this.changeHandler} onClick={this.handleClick} ref={node => { this.node = node; }}  placeholder="Enter product name, software category, service name.. " className={search.length > 0 ?  "Rectangleforinputon " : "Rectangleforinput" } type="text" />
+
+                {
+                    this.state.popupVisible && (
+                        <div className={this.state.showcontrol && search.length > 0 ? "border " : " border enclosed" }>
                         <div className="catlist">
                             <span className="Categories">Categories</span>
                             {prodnames.length === 0 ? <li className="margin"><span className="sales">No Category Found</span></li> :
                             prodnames.map((l,index) => {
                                 return ( index <=4 ?
                                 <li className="margin">
-                                    <span className="Sales">{l.cathead} </span>
+                                    <a className="sea" href={"/categories/" + l.cathead }><span className="Sales">{l.cathead} </span></a>
+
+                                   
                                     
                                 </li> : ''
                                 );
@@ -107,16 +125,21 @@ export default class search extends Component {
                             produc.map((l,index) => {
                                 return (  index <=4 ? 
                                 <li className="margin">
-                                    <span className="Sales">{l} </span>
+                                    <a  className="sea" href={"/product/" + l }><span className="Sales">{l} </span></a>
+                                    
                                     
                                 </li> : ''
                                 );
                             })}
 
                         </div>
-
-
                     </div>
+
+                    )
+                }    
+
+
+                    
 
                    
                       

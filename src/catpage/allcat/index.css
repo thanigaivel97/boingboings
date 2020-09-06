@@ -215,6 +215,11 @@
     text-decoration: none;
 }
 
+.link:hover {
+    color: #102a43;
+    opacity: 0.6;
+}
+
 .libut {
     margin-top: 30px;
 }

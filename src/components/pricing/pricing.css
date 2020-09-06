@@ -1,6 +1,5 @@
 .individual {
     width: 182px;
-    height: 390px;
     border-radius: 15px;
     border: solid 2px #334e68;
     background-color: #ffffff;
@@ -8,9 +7,8 @@
 
 .Individual {
     width: 133px;
-    height: 36px;
     font-family: ProximaNova;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     font-stretch: normal;
     text-align: center;
@@ -29,8 +27,8 @@
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    margin-top: 35px;
     color: #243b53;
+    padding-top: 10px;
 }
 
 .Features {
@@ -47,7 +45,6 @@
 }
 
 .Free-Users {
-    height: 14px;
     font-family: ProximaNova;
     font-size: 12px;
     font-weight: normal;
@@ -68,7 +65,8 @@
 }
 
 .forusers {
-    padding-left: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 @media (max-width: 500px) {

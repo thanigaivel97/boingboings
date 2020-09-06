@@ -188,7 +188,7 @@ export default class mainapp extends Component {
         }
     }
     componentDidMount(){
-      console.log("hello")
+      console.log("hello" , this.props.features)
       console.log(this.props.proddetails)
       this.setState({
         acc : this.props.proddetails
@@ -236,7 +236,7 @@ export default class mainapp extends Component {
                     </div>
     
                     <div className="getdemobutton">
-                        <button className="insidebutton"><a className="removeline" href="/setup-demo"><span className="buttontext">Contact Sales</span></a></button>
+                        <button className="insidebutton"><a className="removeline" href={"/setup-demo/" + this.props.url}><span className="buttontext">Contact Sales</span></a></button>
     
                     </div>
                     {this.state.acc.productsoftwarescore ?<div className="softwarescore">
@@ -259,27 +259,26 @@ export default class mainapp extends Component {
                             <div className="insidesocial">
                               {
                                 this.state.acc.LinkedInProfileFollowers === "" ? '' :  <div className="linkedin">
-                                <img className="Social-media_Instagram-512" src={linkedin}  alt="linkedin"></img><span className="foll"> {this.state.acc.LinkedInProfileFollowers} </span>
-
+                                    <a className="rem" href={this.state.acc.LinkedInProfileURL}><img className="Social-media_Instagram-512" src={linkedin} alt="fb"></img><span className="foll"> {this.state.acc.LinkedInProfileFollowers} </span></a>
                             </div>
                               }
                                
                                 {
-                                  this.state.acc.TwitterProfileFollowers === "" ? '' : <div className="linkedin">    
-                                      <img className="Social-media_Instagram-512" src={twitter} alt="twitter"></img><span className="foll">  {this.state.acc.TwitterProfileFollowers} </span>
-
+                                  this.state.acc.TwitterProfileFollowers === "" ? '' : <div className="linkedin">   
+                                    <a className="rem" href={this.state.acc.TwitterProfileURL}><img className="Social-media_Instagram-512" src={twitter} alt="fb"></img><span className="foll"> {this.state.acc.TwitterProfileFollowers} </span></a>
                                  </div>
                                 }
                                 
                                 {
                                   this.state.acc.FacebookProfileFollowers === "" ? '' : <div className="linkedin">
-                                      <img className="Social-media_Instagram-512" src={fb} alt="fb"></img><span className="foll"> {this.state.acc.FacebookProfileFollowers} </span>
+                                    <a className="rem" href={this.state.acc.FacebookProfileURL}><img className="Social-media_Instagram-512" src={fb} alt="fb"></img><span className="foll"> {this.state.acc.FacebookProfileFollowers} </span></a>
+                                      
                                   </div>
                                 }
                                 
                                 {
                                   this.state.acc.InstagramProfileFollowers === "" ? '' : <div className="linkedin">
-                                        <img  className="Social-media_Instagram-512" src={insta} alt="insta"></img><span className="foll">  {this.state.acc.InstagramProfileFollowers} </span>
+                                    <a className="rem" href={this.state.acc.InstagramProfileURL}><img className="Social-media_Instagram-512" src={insta} alt="fb"></img> <span className="foll"> {this.state.acc.InstagramProfileFollowers} </span></a>
                                   </div>
                                 }
                                 
@@ -311,7 +310,7 @@ export default class mainapp extends Component {
                                                 
                                             </div>
                                             <div className="footertitle">
-                                                Fast Growing
+                                                Most Worthy
     
                                             </div>
                                             
@@ -336,7 +335,7 @@ export default class mainapp extends Component {
                                                     
                                                 </div>
                                                 <div className="footertitle">
-                                                    Fast Growing
+                                                    Most Popular
     
                                                 </div>
                                                 
@@ -347,7 +346,7 @@ export default class mainapp extends Component {
                                                     
                                                 </div>
                                                 <div className="footertitle">
-                                                    Fast Growing
+                                                    Most Searched
     
                                                 </div>
                                                 
@@ -361,13 +360,15 @@ export default class mainapp extends Component {
     
                         </div> }
     
-    
-                        <div className="smrtsheetfeautures">
-                            <div className="smartsheettittle">{this.state.acc.productname} Features</div>
-                                    <Smartsheet catname={this.props.features.categoryName} product_features={this.props.features} />
-                                    {/* <Smartsheet />  */}
-    
-                        </div>
+                        {
+                          this.props.features.Category_Features_Supported.length !== 0 ? <div className="smrtsheetfeautures">
+                          <div className="smartsheettittle">{this.state.acc.productname} Features</div>
+                                  <Smartsheet catname={this.props.features.categoryName} product_features={this.props.features} />
+                                  {/* <Smartsheet />  */}
+  
+                      </div>  : ''
+                        }
+                        
     
                         <div>
                             <div className="SmartSheet-Technical">{this.state.acc.productname} Technical Details</div>
@@ -379,7 +380,7 @@ export default class mainapp extends Component {
     
                         <div>
                             <div className="How-to-reachout-deta">How to reachout details</div>
-                            <Reachout location={this.state.acc.Location} phonenumber={this.state.acc.phonenumber}  />
+                            <Reachout urlfordemo={this.props.url} location={this.state.acc.Location} phonenumber={this.state.acc.phonenumber}  />
     
                         </div>
     
@@ -390,19 +391,19 @@ export default class mainapp extends Component {
                             <Pricingf plandetails={this.props.plandetails} />
                         </div>
     
-                        <div>
+                        {/* <div>
                             <div className="SmartSheet-Alternati">SmartSheet Alternatives</div>
                             <Alternative />
                             <div className="See-More">
                                 <span className="See-More">See More</span>
     
                             </div>
-                        </div>
+                        </div> */}
     
     
                         {this.props.cus.length ===0 ? "" : <div>
                             <div className="Top-Customers">Top Customers</div>
-                           <Topcustom ></Topcustom>
+                           <Topcustom customer={this.props.cus} ></Topcustom>
                         </div>}
                         
     

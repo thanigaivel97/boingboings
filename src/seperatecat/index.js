@@ -80,7 +80,7 @@ export default class index extends Component {
                             </div>
                         </div>
                         <div className="bt-class">
-                             <button className="cotact-sales"><a href="/setup-demo" className="contact-sales-text"> Contact Sales</a></button>     
+                             <button className="cotact-sales"><a href={"/setup-demo/" +replacedrf } className="contact-sales-text"> Contact Sales</a></button>     
                          </div>
                         
                          </div> : ''

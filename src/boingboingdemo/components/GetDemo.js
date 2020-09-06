@@ -8,6 +8,8 @@ import CustomizedSnackbars from './CustomizedSnackbars'
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import amplitude from 'amplitude-js'
 
+import Search from './search'
+
 
 
 import dataofproducts from '../data/productnames.json'
@@ -91,6 +93,11 @@ class GetDemo extends React.Component {
 
 
 }
+
+componentDidMount(){
+  this.setState({value : this.props.item})
+}
+
 
 onChangeValuedrop = event =>{
   this.setState({employeenumbers : event.target.value});
@@ -343,8 +350,10 @@ onChangeValue = event => {
   		return (
         <div>
 
+          {/* <Search /> */}
         
         <div className="getdemo">
+
   			
 
         <div className="select-company">
